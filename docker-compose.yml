@@ -17,6 +17,7 @@ services:
     depends_on:
       - mysqldb
     build: ./
+  alpine
     restart: on-failure
     ports:
       - 8087:8087
